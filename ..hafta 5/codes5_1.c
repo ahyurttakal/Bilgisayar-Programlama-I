@@ -1,4 +1,4 @@
-//Klavyeden girilen sayıyı tersten yazan
+//Klavyeden girilen sayının, sayı değerleri toplamı
 
 #include<stdio.h>
 #include<conio.h>
@@ -11,8 +11,8 @@ int main()
 	while(sayi>0)
 	{
 		basamak=sayi%10;
-		toplam=(toplam*10)+basamak;
 		sayi=sayi/10;
+		toplam+=basamak;
 	}
 	printf("İlk= %d, Toplam= %d\n", ilk, toplam);
 	getch();
