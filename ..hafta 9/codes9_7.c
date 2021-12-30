@@ -3,10 +3,10 @@
 #include<stdio.h>
 void kutu(int satir,int sutun)
 {
-	int i;
-	for(;satir>0;satir--)
+	int i,j;
+	for(i=satir;i>0;i--)
 	{
-		for(i=sutun;i>0;i--)
+		for(j=sutun;j>0;j--)
 			printf("*");
 		printf("\n");
 	}
