@@ -1,0 +1,3 @@
+#define dogru 0
+#define yanlis 1
+int sayi, n, b=0;
