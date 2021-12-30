@@ -1,3 +1,5 @@
+//Harflerin permütasyonu
+
 #include <stdio.h>
 #include <string.h>
 
