@@ -37,7 +37,7 @@ int main()
 		{
 			for(k=0;k<sutun1;k++)
 			{
-				toplam+=dizi1[i][k]*dizi2[k][j];///Matris Çarpım Algoritması
+				toplam+=dizi1[i][k]*dizi2[k][j];///Matris Çarpımı
 			}
 			sonuc[i][j]=toplam;			
 			toplam=0;
