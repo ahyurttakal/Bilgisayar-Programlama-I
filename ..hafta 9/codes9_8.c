@@ -1,3 +1,5 @@
+///Faktöriyel (Recursive)
+
 #include<stdio.h>
 int fak(int n)
 {
