@@ -15,7 +15,7 @@ int main()
 		p++;
 	}
 	
-  p=harfler;
+  	p=harfler;
 	
 	printf("Harfler=\n");
 	for(i=0;i<26;i++)
