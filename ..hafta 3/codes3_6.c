@@ -4,9 +4,9 @@
 
 int main()
 {
-  int sayi,sayac,toplam=0;
+  	int sayi,sayac,toplam=0;
 	printf("sayıyı giriniz");
-    scanf("%d",&sayi);
+    	scanf("%d",&sayi);
 	for(sayac=0;sayac<=sayi;sayac++)
 	{
 		if(sayac%2!=0)
