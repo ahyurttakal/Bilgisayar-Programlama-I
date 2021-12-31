@@ -4,18 +4,18 @@
 
 int main()
 {	
-  int sayi,toplam=0;
+  	int sayi,toplam=0;
 	printf("Sayı giriniz");
 	scanf("%d",&sayi);
-	int tekrar=0;
-	while(tekrar++<sayi)
+	int sayac=0;
+	while(sayac++<sayi)
 	{
-		if(tekrar%2==0)
+		if(sayac%2==0)
 		{
-			toplam+=tekrar; //toplam=toplam+tekrar
-			printf("Sayı %d\n",tekrar);
+			toplam+=sayac; //toplam=toplam+tekrar
+			printf("Sayı %d\n",sayac);
 		}	
-		//tekrar++;
+		//sayac++;
 	}
 	printf("Toplam %d ",toplam);
 }
