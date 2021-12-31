@@ -1,6 +1,7 @@
 # Bilgisayar-Programlama-I
 
 >Amaç-Hedef
+
 Temel hedef kod yazma, algoritma kurma becerisi kazandırmaktır. Bu kapsamda makine diline yakın olması, hem donanıma hitap etmesi hem de uygulama geliştirmede kullanılması, donanım ve işletim sisteminden bağımsız kolay taşınabilir olması nedenleriyle derste C Programlama dili gösterilmektedir. Zaman zaman C++ programlama dili ile farklarına değinilmektedir.
 
 >Kurulması gereken programlar: 
