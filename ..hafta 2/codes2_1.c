@@ -40,49 +40,6 @@ int main()
 	float maas=saat*ucret;
 	printf("%c harfiyle başlayan çalışanın "
 	"maaşı =%f",karakter,maas);
-////////////////////////////////////////////////////
-	int sayi;
-	printf("Lütfen bir sayı giriniz");
-	scanf("%d",&sayi);
-	if(sayi>=100)
-		printf("Girilen sayı 100'den büyüktür.");
-	else
-		printf("Girilen sayı 100'den küçüktür");
-/////////////////////////////////////////////////////		
-	int sayi;
-	printf("Lütfen bir sayı giriniz");
-	scanf("%d",&sayi);
-	if(sayi>=30 && sayi<=50)
-		printf("Girilen sayı 30-50 arasındadır");
-	else if(sayi<30)
-		printf("Girilen sayı 30'dan küçüktür");
-	else
-		printf("Girilen sayı 50'den büyüktür");
-//////////////////////////////////////////////////
-	int a,b,c;
-	printf("Sayıları giriniz ");
-	scanf("%d%d%d",&a,&b,&c);
-	if(a>=b && a>=c)
-		printf("En büyük sayı %d",a);
-	else if(b>=a && b>=c)
-		printf("En büyük sayı %d",b);
-	else 
-		printf("En büyük sayı %d",c);
-////////////////////////////////////////////		
-	if(a>=b)
-	{
-		if(a>=c)
-			printf("En büyük sayı %d",a);
-		else
-			printf("En büyük sayı %d",c);
-	}
-	else 
-	{
-		if(b>=c)
-			printf("En büyük sayı %d",b);
-		else
-			printf("En büyük sayı %d",c);
-	}
 //////////////////////////////////////////////	
 	//Artırma,Azaltma İşlemleri
 	int i=10,j=60;
