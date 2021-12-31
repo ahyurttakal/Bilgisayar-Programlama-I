@@ -22,7 +22,7 @@ int *ip1, *ip2, id1, id2;
 ip1=&id1;
 ip2=&id2;
 id1=42; 
-*ip2=67 //Dolaylı
+*ip2=67; //Dolaylı
 printf("id1=%d\n",*ip1);
 printf("id1 Adres=%p\n",ip1); //pointerle
 printf("id2 Adres=%p\n",ip2); //operatörle
