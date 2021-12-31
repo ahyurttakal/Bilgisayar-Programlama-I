@@ -1,4 +1,7 @@
-	
+#include <stdio.h>
+void main()
+{
+	int a,b,c;
 	if(a>=b)
 	{
 		if(a>=c)
@@ -13,3 +16,4 @@
 		else
 			printf("En büyük sayı %d",c);
 	}
+}
