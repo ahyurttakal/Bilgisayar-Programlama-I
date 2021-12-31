@@ -4,7 +4,7 @@
 
 int main()
 {	
-  int sayi, sayac, faktoriyel;
+ 	int sayi, sayac, faktoriyel;
 	printf("Sayıyı giriniz");
 	scanf("%d",&sayi);
 	if(sayi>0)
