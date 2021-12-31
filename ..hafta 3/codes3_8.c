@@ -11,4 +11,10 @@ int main()
   do{
   	printf("%d Merhaba\n",++j);
   }while(j<10);
+///////////////////////
+  int k;
+  for(k=0;k<10;k++)
+  {
+    printf("%d Merhaba\n");
+  }
 }
