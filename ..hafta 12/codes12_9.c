@@ -1,4 +1,7 @@
 //Farklı boyutlarda iki matrsin çarpımı (Dinamik bellek kullanımı ile)
+//1 2     4 3     6  7
+//2 0  X  1 2  =  8  6
+//3 1             13 11
 
 #include<stdio.h>
 #include<conio.h>
