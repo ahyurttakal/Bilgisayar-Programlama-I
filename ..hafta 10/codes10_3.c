@@ -1,3 +1,5 @@
+//pointerla dizideki sonraki degerin adresine erişim
+
 #include<stdio.h>
 
 int main()
