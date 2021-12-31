@@ -6,7 +6,7 @@ Temel hedef kod yazma, algoritma kurma becerisi kazandırmaktır. Bu kapsamda ma
 
 >Kurulması gereken programlar: 
 1. Flowgorithm (http://www.flowgorithm.org/download/)
-2. Dev C++ (https://www.bloodshed.net/)
+2. Dev C/C++ (https://www.bloodshed.net/)
 
 >İçerik:
 
