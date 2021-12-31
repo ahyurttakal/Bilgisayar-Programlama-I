@@ -4,6 +4,10 @@
 
 Temel hedef kod yazma, algoritma kurma becerisi kazandırmaktır. Bu kapsamda makine diline yakın olması, hem donanıma hitap etmesi hem de uygulama geliştirmede kullanılması, donanım ve işletim sisteminden bağımsız kolay taşınabilir olması nedenleriyle derste C Programlama dili gösterilmektedir. Zaman zaman C++ programlama dili ile farklarına değinilmektedir.
 
+>Değerlendirme
+
+Vize*40% + Final*60% 
+
 >Kurulması gereken programlar: 
 1. Flowgorithm (http://www.flowgorithm.org/download/)
 2. Dev C/C++ (https://www.bloodshed.net/)
