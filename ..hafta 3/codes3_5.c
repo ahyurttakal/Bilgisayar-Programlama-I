@@ -4,7 +4,7 @@
 
 int main()
 {
-  int sayi1,sayi2,toplam=0;
+  	int sayi1,sayi2,toplam=0;
 	char dvm;
 	do{
 		printf("Birinci sayıyı giriniz");
