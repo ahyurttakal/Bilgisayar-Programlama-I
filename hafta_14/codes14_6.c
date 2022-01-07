@@ -20,10 +20,6 @@ int main()
     p3d *p3; 
 
     p3=(p3d *)malloc(sizeof(p3d));
-    if(!p3){
-        printf("Bellek hatası.");
-        return 1;
-    }
     p3->x=100;
     p3->y=200;
     p3->z=150;
