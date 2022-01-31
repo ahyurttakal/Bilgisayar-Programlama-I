@@ -22,13 +22,13 @@ Hafta 3: Koşullar
 
 Hafta 4: Döngüler
 
-Hafta 5: Karışık Uygulamalar
+Hafta 5: Koşul Döngü İçiçe Uygulamalar
 
-Hafta 6: Bitsel Operatörler, İşlem Önceliği
+Hafta 6: Bitsel Operatörler, İşlem Önceliği, Vizeye Hazırlık
 
 Hafta 7: Diziler
 
-Hafta 8: Vizeye Hazırlık, Vizeler
+Hafta 8: VİZE
 
 Hafta 9: Fonksiyonlar
 
@@ -43,4 +43,6 @@ Hafta 13: Dosya İşlemleri
 Hafta 14: Struct
 
 Hafta 15: Finale Hazırlık
+
+Hafta 16: FİNAL
 

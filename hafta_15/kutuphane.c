@@ -1,10 +1,10 @@
-///Bir kütüphanenin çalışmasını gösteren menü odaklı
-//bir program yazınız. Menüler şunlardır:
+///Bir kÃ¼tÃ¼phanenin Ã§alÄ±ÅŸmasÄ±nÄ± gÃ¶steren menÃ¼ odaklÄ±
+//bir program yazÄ±nÄ±z. MenÃ¼ler ÅŸunlardÄ±r:
 //1.Kitap bilgileri girin(kitapno, fiyat, kitapadi, yazaradi)
-//2.Klavyeden girilen kitabı aratın ve fiyatını 10TL artırın
-//3.Tüm kitap bilgilerini gösterin
-//4.Kitap sayısını gösterin
-//5.Çıkış
+//2.Klavyeden girilen kitabÄ± aratÄ±n ve fiyatÄ±nÄ± 10TL artÄ±rÄ±n
+//3.TÃ¼m kitap bilgilerini gÃ¶sterin
+//4.Kitap sayÄ±sÄ±nÄ± gÃ¶sterin
+//5.Ã‡Ä±kÄ±ÅŸ
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -71,7 +71,7 @@ void goster()
 		printf("Yazar Adi=%s",c[i].yazaradi);
 	}
 }
-v+oid say()
+void say()
 {
 	printf("Kitap sayisi=%d",adet);
 }
@@ -85,7 +85,7 @@ void main()
 	{
 		printf("1.Kitap bilgisi giriniz>\n");
 		printf("2.Kitap Ara>\n");
-		printf("3.Tüm kitaplari goster>\n");
+		printf("3.TÃ¼m kitaplari goster>\n");
 		printf("4.Kitap sayisini goster>\n");
 		printf("5.Cikis>\n");
 		scanf("%d",&i);
