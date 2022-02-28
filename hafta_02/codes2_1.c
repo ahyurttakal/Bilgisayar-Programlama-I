@@ -12,13 +12,13 @@ int main()
 	" Programlama"
 	" Islemleri");
 	////////////////////////////
-	//Veri türleri-Değişkenler
-	//Temel Veri türleri= char, int, long, float, double
-	//Özel Veri türleri= Diziler, Pointer, Structure
+	//Veri tÃ¼rleri-DeÄŸiÅŸkenler
+	//Temel Veri tÃ¼rleri= char, int, long, float, double
+	//Ã–zel Veri tÃ¼rleri= Diziler, Pointer, Structure
 	
 	//char=karakterler, '', 
-	//int, long=tamsayılar
-	//float, double=ondalıklı sayılar
+	//int, long=tamsayÄ±lar
+	//float, double=ondalÄ±klÄ± sayÄ±lar
 	
 	char ornek1='A';
 	printf("Deger= %c\n", ornek1);
@@ -33,15 +33,10 @@ int main()
 	printf("Deger= %.2lf\n", ornek4);
 	
 	long ornek5=322;
-	printf("Deger= %ld\n", ornek5);nt a=21, b=9, toplam;
-	toplam=a+b;
-	printf("\n");
-	printf("\na sayisinin degeri %d"
-	"\nb sayisinin degeri %d"
-	"\nToplam= %d", a,b,toplam);
+	printf("Deger= %ld\n", ornek5);
 	////////////////////////////
 	
-	///Aritmatiksel Operatörler
+	///Aritmatiksel OperatÃ¶rler
 	int a=12, b=8, toplam;
 	toplam=a+b;
 	printf("Toplam= %d \n", toplam);
@@ -59,7 +54,7 @@ int main()
 	printf("Bolme= %d \n", bolme);
 	
 	float bolme2;
-	bolme2=(float)a/b; ///Cast operatörü
+	bolme2=(float)a/b; ///Cast operatÃ¶rÃ¼
 	printf("Bolme= %.2f \n", bolme2);
 	
 	int mod;
