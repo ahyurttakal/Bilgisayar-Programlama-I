@@ -3,45 +3,89 @@
 int main()
 {
 	printf("Hello World\n");
-	//Tek satırlık açıklama
-	/*Bu da çok 
-	satırlı açıklama */
+	//Tek satirlik aciklama
+	/*Bu da cok
+	satirlik aciklama */
 	printf("Ben Ahmet");
-	printf("\n\"Senin adın nedir?\" diye sordu.");
-	printf("Bazı Temel"
+	printf("\n\"Senin adin nedir?\" diye sordu.");
+	printf("Bazi Temel"
 	" Programlama"
-	" İşlemleri");
+	" Islemleri");
 	////////////////////////////
-	int a=21, b=9, toplam;
+	//Veri t�rleri-De�i�kenler
+	//Temel Veri t�rleri= char, int, long, float, double
+	//�zel Veri t�rleri= Diziler, Pointer, Structure
+	
+	//char=karakterler, '', 
+	//int, long=tamsay�lar
+	//float, double=ondal�kl� say�lar
+	
+	char ornek1='A';
+	printf("Deger= %c\n", ornek1);
+	
+	int ornek2=32;
+	printf("Deger= %d\n", ornek2);
+	
+	float ornek3=3.2;
+	printf("Deger= %.1f\n", ornek3);
+	
+	double ornek4=32.2;
+	printf("Deger= %.2lf\n", ornek4);
+	
+	long ornek5=322;
+	printf("Deger= %ld\n", ornek5);nt a=21, b=9, toplam;
 	toplam=a+b;
 	printf("\n");
-	printf("\na sayısının degeri %d"
-	"\nb sayısının degeri %d"
+	printf("\na sayisinin degeri %d"
+	"\nb sayisinin degeri %d"
 	"\nToplam= %d", a,b,toplam);
 	////////////////////////////
-	float bolum;
-	bolum=(float)a/b; //Cast Operatörü, (Boxing-Unboxing)
-	printf("\nBölme işleminin sonucu= %f", bolum);
+	
+	///Aritmatiksel Operat�rler
+	int a=12, b=8, toplam;
+	toplam=a+b;
+	printf("Toplam= %d \n", toplam);
+	
+	int cikarma;
+	cikarma=a-b;
+	printf("Cikarma= %d \n", cikarma);
+	
+	int carpma;
+	carpma=a*b;
+	printf("Carpma= %d \n", carpma);
+	
+	int bolme;
+	bolme=a/b;
+	printf("Bolme= %d \n", bolme);
+	
+	float bolme2;
+	bolme2=(float)a/b; ///Cast operat�r�
+	printf("Bolme= %.2f \n", bolme2);
+	
+	int mod;
+	mod=a%b;
+	printf("Mod= %d \n", mod);
+	
 	////////////////////////////
 	int sayi;
-	printf("\nSayı giriniz >");
+	printf("\nSayi gir >");
 	scanf("%d", &sayi);
-	printf("\nGirdiğiniz sayı = %d ", sayi);
+	printf("\nGirdiginiz sayi = %d ", sayi);
 	/////////////////////////
 	int saat;
 	float ucret;
 	char karakter;
-	printf("\nÇalışanın baş harfini girin>");
+	printf("\nCalisanin bas harfini girin>");
 	scanf("%c",&karakter);
-	printf("\nÇalışma saati giriniz>");
+	printf("\nCalisma saati giriniz>");
 	scanf("%d",&saat);
-	printf("\nSaat başı ücret giriniz>");
+	printf("\nSaat basi ucret giriniz>");
 	scanf("%f",&ucret);
 	float maas=saat*ucret;
-	printf("%c harfiyle başlayan çalışanın "
-	"maaşı =%f",karakter,maas);
+	printf("%c harfiyle baslayan calisanin "
+	"maasi =%f",karakter,maas);
 //////////////////////////////////////////////	
-	//Artırma,Azaltma İşlemleri
+	//Artirma,Azaltma 
 	int i=10,j=60;
 	printf("i=%d,j=%d",i++,j--);
 	printf("\ni=%d,j=%d",++i,--j);
