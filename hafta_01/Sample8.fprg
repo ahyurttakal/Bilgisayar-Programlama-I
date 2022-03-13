@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="davut"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-21 02:12:01 &#214;S"/>
+        <attribute name="created" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yMTsxMDoyNzoyMCDDlsOWOzI2OTY="/>
+        <attribute name="edited" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yMTswMjoxMjowMSDDllM7MTA7MjcxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="f, say, N" type="Integer" array="False" size=""/>
+            <assign variable="f" expression="1"/>
+            <output expression="&quot;Fakt&#246;riyel De&#287;erini &#214;&#287;renmek &#304;stedi&#287;iniz Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="N"/>
+            <for variable="say" start="1" end="N&#13;&#10;" direction="inc" step="1">
+                <assign variable="f" expression="f*say"/>
+            </for>
+            <output expression="N&amp;&quot;!=&quot;&amp;f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

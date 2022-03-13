@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="davut"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-28 01:39:05 &#214;S"/>
+        <attribute name="created" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMTozMDo1OCDDllM7MjU3Nw=="/>
+        <attribute name="edited" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMTozOTowNSDDllM7MTsyNjg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, yuzler, b, onlar, birler" type="Integer" array="False" size=""/>
+            <output expression="&quot;3 basamakl&#305; bir say&#305; giriniz:&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="yuzler" expression="int(a/100)*100"/>
+            <assign variable="b" expression="a-yuzler"/>
+            <assign variable="onlar" expression="int(b/10)*10"/>
+            <assign variable="birler" expression="b-onlar"/>
+            <output expression="&quot;Y&#252;zl&#252;k De&#287;eri:&quot; &amp;yuzler" newline="True"/>
+            <output expression="&quot;Onluk de&#287;eri:&quot; &amp;onlar" newline="True"/>
+            <output expression="&quot;Birlik De&#287;eri: &quot; &amp;birler" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

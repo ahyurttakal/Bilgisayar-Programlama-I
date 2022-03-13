@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="davut"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-28 01:11:10 &#214;S"/>
+        <attribute name="created" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMTowMzo1MSDDllM7MjU3MA=="/>
+        <attribute name="edited" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMToxMToxMCDDllM7MTsyNjcy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, buyuk" type="Integer" array="False" size=""/>
+            <output expression="&quot;3 say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="buyuk" expression="a"/>
+            <if expression="buyuk&lt;b">
+                <then>
+                    <assign variable="buyuk" expression="b"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="buyuk&lt;c">
+                <then>
+                    <assign variable="buyuk" expression="c"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;En B&#252;y&#252;k Say&#305;: &quot;&amp;buyuk" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

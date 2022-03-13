@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="davut"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-28 01:29:53 &#214;S"/>
+        <attribute name="created" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMToyMjozNCDDllM7MjU3Mg=="/>
+        <attribute name="edited" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMToyOTo1MyDDllM7MTsyNjg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayact, sayacc, ttop, ctop" type="Integer" array="False" size=""/>
+            <assign variable="ttop" expression="0"/>
+            <assign variable="ctop" expression="0"/>
+            <for variable="sayacc" start="2" end="100" direction="inc" step="2">
+                <assign variable="ctop" expression="ctop+sayacc"/>
+            </for>
+            <for variable="sayact" start="1" end="100" direction="inc" step="2">
+                <assign variable="ttop" expression="ttop+sayact"/>
+            </for>
+            <output expression="&quot;0dan 100e kadar olan Tek Say&#305;lar&#305;n toplam&#305;: &quot; &amp;ttop" newline="True"/>
+            <output expression="&quot;0dan 100e kadar olan &#199;ift Say&#305;lar&#305;n Toplam&#305;: &quot; &amp;ctop" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

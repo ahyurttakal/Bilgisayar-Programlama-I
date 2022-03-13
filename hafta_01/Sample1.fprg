@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="davut"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-28 12:41:26 &#214;S"/>
+        <attribute name="created" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODsxMjozODowMCDDllM7MjU3NA=="/>
+        <attribute name="edited" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODsxMjo0MToyNiDDllM7MTsyNjg0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, toplam" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#304;lk Say&#305;y&#305; Giriniz:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;&#304;kinci Say&#305;y&#305; Giriniz:&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="toplam" expression="a+b"/>
+            <output expression="&quot;&#304;ki Say&#305;n&#305; Toplam&#305;: &quot;&amp;toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

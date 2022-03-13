@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="davut"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-28 01:42:02 &#214;S"/>
+        <attribute name="created" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMTozOToyNiDDllM7MjU4MQ=="/>
+        <attribute name="edited" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMTo0MjowMiDDllM7MTsyNjc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac, carpim" type="Integer" array="False" size=""/>
+            <assign variable="carpim" expression="1"/>
+            <for variable="sayac" start="1" end="10" direction="inc" step="1">
+                <assign variable="carpim" expression="carpim*sayac"/>
+            </for>
+            <output expression="&quot;1den 10a kadar say&#305;lar&#305;n &#231;arp&#305;m&#305;:&quot; &amp;carpim" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="davut"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-28 01:03:27 &#214;S"/>
+        <attribute name="created" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODsxMjo0MjoyOSDDllM7MjU4MA=="/>
+        <attribute name="edited" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMTowMzoyNyDDllM7MTsyNjgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayac, toplam" type="Integer" array="False" size=""/>
+            <assign variable="sayac" expression="1"/>
+            <assign variable="toplam" expression="0"/>
+            <for variable="sayac" start="1" end="100" direction="inc" step="1">
+                <assign variable="toplam" expression="toplam+sayac"/>
+            </for>
+            <output expression="&quot;0 dan 100 e kadar say&#305;lar&#305;n toplam&#305;: &quot; &amp;toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
