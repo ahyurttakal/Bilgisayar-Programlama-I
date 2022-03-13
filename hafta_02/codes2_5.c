@@ -1,3 +1,6 @@
+//if içeriği tek satırsa süslü paranteze gerek yok
+//if içeriği çok satırsa süslü parantez kullanılmalı
+
 #include <stdio.h>
 void main()
 {
