@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="davut"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-28 02:33:53 &#214;S"/>
+        <attribute name="created" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yMTswMjo1MToxNCDDllM7MjU2Ng=="/>
+        <attribute name="edited" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMjozMzo1MyDDllM7NDsyNjg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m, n, k, l, i, j" type="Integer" array="False" size=""/>
+            <declare name="A, B, C" type="String" array="False" size=""/>
+            <output expression="&quot;A matrisinin 1x1 de&#287;erini giriniz&quot;" newline="True"/>
+            <input variable="m"/>
+            <output expression="&quot;A matrisinin 1x2 de&#287;erini giriniz&quot;" newline="True"/>
+            <input variable="n"/>
+            <output expression="&quot;B matrisinin 1x1 de&#287;erini giriniz&quot;" newline="True"/>
+            <input variable="k"/>
+            <output expression="&quot;B matrisinin 1x2 de&#287;erini giriniz&quot;" newline="True"/>
+            <input variable="l"/>
+            <output expression="&quot;A&quot;&amp;&quot;[&quot;&amp;m&amp;&quot;  &quot;&amp;n&amp;&quot;]&quot;" newline="True"/>
+            <output expression="&quot;B&quot;&amp;&quot;[&quot;&amp;k&amp;&quot;  &quot;&amp;l&amp;&quot;]&quot;" newline="True"/>
+            <assign variable="i" expression="m+k"/>
+            <assign variable="j" expression="n+l"/>
+            <assign variable="C" expression="&quot;[&quot;&amp;i &amp;j&amp;&quot;]&quot;"/>
+            <output expression="&quot;A + B matris toplam&#305; C matrisi olacak &#351;ekilde;&quot;" newline="True"/>
+            <output expression="&quot;C&quot;&amp;&quot;[&quot;&amp;i&amp;&quot;  &quot;&amp;j&amp;&quot;]&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

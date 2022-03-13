@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="davut"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-21 04:49:25 &#214;S"/>
+        <attribute name="created" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yMTswMjozMjo1OSDDllM7MjU3NA=="/>
+        <attribute name="edited" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yMTswNDo0OToyNSDDllM7NjsyNjkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="okek" type="Real" array="False" size=""/>
+            <declare name="a, b, k&#252;c, i, obeb" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#304;ki Say&#305;dan Birini Giriniz&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Di&#287;er Say&#305;y&#305; Giriniz&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a&gt;b">
+                <then>
+                    <assign variable="k&#252;c" expression="b"/>
+                </then>
+                <else>
+                    <assign variable="k&#252;c" expression="a"/>
+                </else>
+            </if>
+            <for variable="i" start="1" end="k&#252;c+1" direction="inc" step="1">
+                <if expression="(a mod i==0) and (b mod i==0)">
+                    <then>
+                        <assign variable="obeb" expression="i"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;OBEB = &quot;&amp;obeb" newline="True"/>
+            <assign variable="okek" expression="(a*b)/obeb"/>
+            <output expression="&quot;OKEK = &quot;&amp;okek" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

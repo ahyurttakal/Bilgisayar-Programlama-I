@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="davut"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-28 02:10:08 &#214;S"/>
+        <attribute name="created" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMTo0OTo1OCDDllM7MjU4Nw=="/>
+        <attribute name="edited" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMjoxMDowOCDDllM7MjsyNjgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="True" size="10"/>
+            <declare name="i, max" type="Integer" array="False" size=""/>
+            <assign variable="max" expression="0"/>
+            <for variable="i" start="0" end="size(A) - 1" direction="inc" step="1">
+                <assign variable="A[i]" expression="random(10)+1"/>
+            </for>
+            <for variable="i" start="0" end="size(A)-1" direction="inc" step="1">
+                <if expression="A[i]&gt;max">
+                    <then>
+                        <assign variable="max" expression="A[i]"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;MAX:&quot; &amp;max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

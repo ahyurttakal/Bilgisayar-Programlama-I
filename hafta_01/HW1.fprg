@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="davut"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-28 01:46:28 &#214;S"/>
+        <attribute name="created" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yMTsxMjoyNToxNiDDllM7MjU3MA=="/>
+        <attribute name="edited" value="ZGF2dXQ7VEFTUElOQVI7MjAyMi0wMi0yODswMTo0NjoyOCDDllM7MTE7MjczOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <declare name="x1, x2, x, delta" type="Real" array="False" size=""/>
+            <output expression="&quot;ax2+bx+c s&#305;ras&#305;nda olacak &#351;eklinde a b c katsay&#305;lar&#305;n&#305; giriniz&quot;" newline="True"/>
+            <output expression="&quot;a de&#287;erini giriniz&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;b de&#287;erini giriniz&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;c de&#287;erini giriniz&quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="delta" expression="b*b-4*a*c"/>
+            <if expression="delta&gt;0">
+                <then>
+                    <assign variable="x1" expression="(-b-sqrt(delta))/(2*a)"/>
+                    <assign variable="x2" expression="(-b+sqrt(delta))/(2*a)"/>
+                    <output expression="&quot;&#304;ki Reel K&#246;k&#252; Vard&#305;r&quot;" newline="True"/>
+                    <output expression="&quot;x1=&quot; &amp;x1" newline="True"/>
+                    <output expression="&quot;x2=&quot; &amp;x2" newline="True"/>
+                </then>
+                <else>
+                    <if expression="delta==0">
+                        <then>
+                            <assign variable="x" expression="(-b)/(2*a)"/>
+                            <output expression="&quot;Tek K&#246;k&#252; Vard&#305;r ve Bu K&#246;k &quot;&amp;x&amp;&quot; olur&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Ger&#231;el K&#246;k Yoktur&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
