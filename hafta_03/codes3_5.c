@@ -18,4 +18,18 @@ int main()
 		//sayac++;
 	}
 	printf("Toplam %d ",toplam);
+	
+//	int sayi, toplam=0;
+//	printf("Sayi gir> \n"); scanf("%d",&sayi);
+//	int i;
+//	for(i=0;i<=sayi;i++)
+//	{
+//		if(i%2==0)
+//		{
+//			toplam=toplam+i; //toplam+=i;
+//			printf("Sayi=%d \n",i);
+//		}
+//			
+//	}
+//	printf("Toplam=%d",toplam);
 }
