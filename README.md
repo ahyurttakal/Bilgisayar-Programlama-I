@@ -1,4 +1,4 @@
-# Bilgisayar-Programlama-I
+# Bilgisayar-Programlama-I*
 
 >Amaç-Hedef
 
@@ -46,3 +46,4 @@ Hafta 15: Finale Hazırlık
 
 Hafta 16: FİNAL
 
+*(İçerik sürekli güncellenmektedir.)
