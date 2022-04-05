@@ -16,7 +16,7 @@ Vize*40% + Final*60%
 
 Hafta 1: Bilgisayar Programlamaya Giriş, Akış Diyagramları, Sözde Kod
 
-Hafta 2: Değişkenler, Veri Türleri, Operatörler
+Hafta 2: Değişkenler, Veri Türleri, Operatörler, İşlem Önceliği
 
 Hafta 3: Koşullar
 
@@ -24,9 +24,9 @@ Hafta 4: Döngüler
 
 Hafta 5: Koşul Döngü İçiçe Uygulamalar
 
-Hafta 6: Bitsel Operatörler, İşlem Önceliği, Vizeye Hazırlık
+Hafta 6: Diziler
 
-Hafta 7: Diziler
+Hafta 7: Vizeye Hazırlık
 
 Hafta 8: VİZE
 
