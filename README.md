@@ -6,7 +6,7 @@ Temel hedef kod yazma, algoritma kurma becerisi kazandırmaktır. Derste C Progr
 
 >Değerlendirme
 
-Vize*40% + Final*60% 
+Vize*40% + Final*30% + FinalÖdev*30% 
 
 >Kurulması gereken programlar: 
 1. Flowgorithm (http://www.flowgorithm.org/download/)
