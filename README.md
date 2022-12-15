@@ -1,12 +1,16 @@
 # Bilgisayar-Programlama-I*
 
+>Ön Koşul
+
+Bu dersin ön koşulu bulunmamaktadır. Bu derste başarısız olunması durumunda gelecek dönem Bilgisayar Programlama-II dersi alınamaz.
+
 >Amaç-Hedef
 
 Temel hedef kod yazma, algoritma kurma becerisi kazandırmaktır. Derste C Programlama dili gösterilmektedir. Zaman zaman C++ programlama dili ile farklarına değinilmektedir.
 
 >Değerlendirme
 
-Vize*40% + Final*60% 
+Vize*30% + Final*50% + Proje*20%
 
 >Kurulması gereken programlar: 
 1. Flowgorithm (http://www.flowgorithm.org/download/)
