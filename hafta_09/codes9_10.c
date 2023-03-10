@@ -6,7 +6,7 @@ int dectobin (int say)
   if (say==0)
     return 0;
   else 
-    return say%2+10*fak(say/2);
+    return say%2+10*dectobin(say/2);
    
 }
  int main()
