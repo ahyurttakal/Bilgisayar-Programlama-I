@@ -1,8 +1,8 @@
-# Bilgisayar-Programlama-I*
+# C Dersleri*
 
 >Ön Koşul
 
-Bu dersin ön koşulu bulunmamaktadır. Bu derste başarısız olunması durumunda gelecek dönem Bilgisayar Programlama-II dersi alınamaz.
+Bu dersin ön koşulu bulunmamaktadır. 
 
 >Amaç-Hedef
 
